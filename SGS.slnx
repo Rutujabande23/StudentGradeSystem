@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="SGS.Application/SGS.Application.csproj" />
+  <Project Path="SGS.Domain/SGS.Domain.csproj" />
+  <Project Path="SGS.Infrastructure/SGS.Infrastructure.csproj" />
+  <Project Path="SGS.UI/SGS.UI.csproj" />
+</Solution>

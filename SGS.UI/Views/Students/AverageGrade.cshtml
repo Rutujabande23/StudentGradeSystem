@@ -1,0 +1,25 @@
+﻿@model decimal
+
+@{
+    ViewData["Title"] = "Average Grade";
+}
+
+<h2>Average Student Grade</h2>
+
+<div class="card p-4 mt-3" style="max-width: 450px;">
+    <h5>Average Grade</h5>
+
+    <h2 class="text-success">
+        @Model.ToString("F2")
+    </h2>
+
+    <p class="text-muted">
+        Average grade across all students.
+    </p>
+
+    <a asp-controller="Students"
+       asp-action="Index"
+       class="btn btn-primary">
+        Back to Student List
+    </a>
+</div>
